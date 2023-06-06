@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   color: rgb(0, 0, 0);
    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 body{
@@ -13,19 +12,50 @@ body{
     width: 75%;
     margin-left: 12.5%;
     background: rgba(174, 169, 67, 0.396);
+    border-radius: 20px;
+}
+.card-header{
+    color:#5A5B39;
 }
 .card .card-body{
+    
+    padding: 50px 50px 0px 50px;
     background-image: url("../img/cim.PNG");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
+    border-radius: 20px;
 }
+/* rgba(124, 40, 117, 0.678) ez a szin volt a login-ba es a sigup-ban ha majd kéne (valami lilás vagy mi)*/
 #login{
-    background-color: rgba(55, 54, 127, 0.678);
-    
+    background-color: #5a5b39c1;
+    border-radius: 20px;
 }
 #sigup{
-    background-color: rgba(124, 40, 117, 0.678);
-    
+    background-color: #5a5b39c1;
+    border-radius: 20px;
 }
 
+
+/* ezeket csinalta a szabi */
+
+li{
+    background-color: #5A5B39;
+    margin: 0px 12px 0px 12px;
+    padding: 0px 8px 0px 8px;
+    border-radius: 10px;
+    
+}
+  
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link{
+    color:#DFDDB5;
+}
+
+.login, .signup{
+    text-align: center;
+    color: #DFDDB5;
+}
